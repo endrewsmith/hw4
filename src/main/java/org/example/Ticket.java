@@ -24,9 +24,22 @@ public class Ticket {
     /**
      * Приоритет для ранней регистрации
      */
-    OffsetDateTime registerTime = OffsetDateTime.now();
+    OffsetDateTime registerTime;
 
     public Ticket(String type) {
         this.type = type;
+        registerTime = OffsetDateTime.now();
+    }
+
+    public String getType(){
+        return type;
+    }
+
+    public OffsetDateTime getRegisterTime(){
+        return registerTime;
+    }
+
+    public int getId(){
+        return id;
     }
 }
