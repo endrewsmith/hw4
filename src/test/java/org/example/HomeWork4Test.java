@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.hm4.MyTicketManager;
-import org.example.hm4.Ticket;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,5 @@
-package org.example.hm4;
+package org.example;
+import org.example.TicketManager;
 
 public class MyTicketManager implements TicketManager {
 
